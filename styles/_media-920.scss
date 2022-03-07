@@ -1,31 +1,38 @@
 @media screen and (min-width: 920px) {
 
+
     main {
         padding-right: 100px;
         padding-left: 100px;
     }
 
     .cards-container {
-        grid-template-columns: repeat(3, 270px);
-        grid-template-rows: repeat(2, 231px);
+        grid-template-columns: repeat(3, 315px);
+        grid-template-rows: repeat(6, 70px);
         height: 100%;
+        width: 80%;
         align-items: center;
-        padding-bottom: 60px;
+        padding-bottom: 10px;
+        
     }
 
     .supervisor {
+        grid-column: 1;
+        grid-row: 3 / 6;
     }
     
     .team-builder {
-        grid-column: 2 / 3;
-        
+        grid-column: 2;
+        grid-row: 1 / 5;
     }
     
     .karma {
-        grid-column: 2 / 3;
+        grid-column: 2;
+        grid-row: 4 / 9;
     }
     
     .calculator {
-       
+        grid-column: 3;
+        grid-row: 3 / 6;
     }
 }
