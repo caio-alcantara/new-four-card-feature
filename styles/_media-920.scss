@@ -1,0 +1,31 @@
+@media screen and (min-width: 920px) {
+
+    main {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+    .cards-container {
+        grid-template-columns: repeat(3, 270px);
+        grid-template-rows: repeat(2, 231px);
+        height: 100%;
+        align-items: center;
+        padding-bottom: 60px;
+    }
+
+    .supervisor {
+    }
+    
+    .team-builder {
+        grid-column: 2 / 3;
+        
+    }
+    
+    .karma {
+        grid-column: 2 / 3;
+    }
+    
+    .calculator {
+       
+    }
+}

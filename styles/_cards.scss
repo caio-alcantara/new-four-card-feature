@@ -1,0 +1,44 @@
+.card {
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.205);
+    border-radius: 5px;
+    padding: 25px;
+    max-width: 315px;
+ 
+    p {
+        padding-bottom: 40px;
+        font-size: 15px;
+        color: $grayish-blue;
+    }
+
+    h2 {
+        font-size: 1.3em;
+        color: $very-dark-blue;
+        padding-bottom: 5px;
+    }
+
+    .img {
+        display: flex;
+        justify-content: flex-end;
+
+        img {
+            height: 55px;
+        }
+    }
+}
+
+.supervisor {
+    border-top: 4px solid $cyan;
+}
+
+.team-builder {
+    border-top: 4px solid $red;
+}
+
+.karma {
+    border-top: 4px solid $orange;
+}
+
+.calculator {
+    border-top: 4px solid $blue;
+}
